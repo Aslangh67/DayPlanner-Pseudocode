@@ -38,13 +38,13 @@ console.log(moment().format("h A"));
 
 // TODO: retrieve the data from local storage using localStorage.getItem and show them back on the text area that they belong to (How can i know what text from local storage goes to what text area?)
 
-localStorage.setItem("test", "My first note" )
-localStorage.setItem("test1", "My second note" )
+// localStorage.setItem("test", "My first note" )
+// localStorage.setItem("test1", "My second note" )
 
 
-var text1FromLocalStorage= localStorage.getItem("test")
-$(".first").text(text1FromLocalStorage)
+// var text1FromLocalStorage= localStorage.getItem("test")
+// $(".first").text(text1FromLocalStorage)
 
-var text2FromLocalStorage= localStorage.getItem("test1")
+// var text2FromLocalStorage= localStorage.getItem("test1")
 
-$(".second").text(text2FromLocalStorage)
+// $(".second").text(text2FromLocalStorage)
